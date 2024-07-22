@@ -1,68 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T11:49:26.024Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.7.1" etag="VmFITa7IRVFOPzeaU4hb" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T12:04:43.611Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="a5Ovz2DiL-UsZjTWkWPy" version="24.7.1" type="github">
   <diagram name="Page-1" id="-Q2Iz3h9BEsy3tTszJFe">
-    <mxGraphModel>
+    <mxGraphModel dx="3436" dy="2571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Switch2" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="37" width="214" height="210" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-560" width="680" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Switch2" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
-          <mxGeometry x="80" y="122" width="71" height="71" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-15" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cluster;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-788" y="-519" width="108" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="PI4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
-          <mxGeometry x="51" y="33" width="39" height="39" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-630" y="-500" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="PI5" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
-          <mxGeometry x="140" y="33" width="39" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=none;exitX=-0.45;exitY=1;entryX=-0.4;entryY=0;" edge="1" parent="2" source="4" target="3">
+        <mxCell id="1eM861wuf7US_MC7G6zC-53" value="&lt;div&gt;192.168.137.11&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1eM861wuf7US_MC7G6zC-18" source="1eM861wuf7US_MC7G6zC-17">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="-130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="71" y="97" />
+              <mxPoint x="20" y="-130" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=none;exitX=-0.45;exitY=1;entryX=0.34;entryY=0;" edge="1" parent="2" source="5" target="3">
+        <mxCell id="1eM861wuf7US_MC7G6zC-17" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-18">
+          <mxGeometry width="39.2" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1eM861wuf7US_MC7G6zC-18">
+          <mxGeometry x="20" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-19" value="RP11" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-540" y="-500" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-54" value="192.168.137.12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1eM861wuf7US_MC7G6zC-20" source="1eM861wuf7US_MC7G6zC-21">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="-130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="97" />
+              <mxPoint x="20" y="-120" />
+              <mxPoint x="121" y="-120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="Switch1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry y="260" width="287" height="210" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-21" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-20">
+          <mxGeometry width="39.2" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Switch1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
-          <mxGeometry x="116" y="122" width="71" height="71" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1eM861wuf7US_MC7G6zC-20">
+          <mxGeometry x="20" y="30" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="PI1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
-          <mxGeometry x="43" y="33" width="39" height="39" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-23" value="RP12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="-480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="PI2" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
-          <mxGeometry x="132" y="33" width="39" height="39" as="geometry" />
+        <mxCell id="1eM861wuf7US_MC7G6zC-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-440" y="-500" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="PI3" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
-          <mxGeometry x="221" y="33" width="39" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=0;entryY=-3.5;" edge="1" parent="8" source="10" target="9">
+        <mxCell id="1eM861wuf7US_MC7G6zC-55" value="192.168.137.13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1eM861wuf7US_MC7G6zC-24" source="1eM861wuf7US_MC7G6zC-25">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19.59999999999991" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-25" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-24">
+          <mxGeometry width="39.2" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1eM861wuf7US_MC7G6zC-24">
+          <mxGeometry x="20" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-27" value="RP13" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-340" y="-500" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-56" value="192.168.137.14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1eM861wuf7US_MC7G6zC-28" source="1eM861wuf7US_MC7G6zC-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="-130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="63" y="97" />
+              <mxPoint x="20" y="-120" />
+              <mxPoint x="-79" y="-120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=0.5;entryY=-3.66;" edge="1" parent="8" source="11" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="1eM861wuf7US_MC7G6zC-29" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-28">
+          <mxGeometry width="39.2" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=1;entryY=-3.5;" edge="1" parent="8" source="12" target="9">
+        <mxCell id="1eM861wuf7US_MC7G6zC-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1eM861wuf7US_MC7G6zC-28">
+          <mxGeometry x="20" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-31" value="&lt;div&gt;RP14&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-240" y="-500" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-60" value="192.168.137.15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1eM861wuf7US_MC7G6zC-32" source="1eM861wuf7US_MC7G6zC-33" target="1eM861wuf7US_MC7G6zC-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="241" y="97" />
+              <mxPoint x="20" y="-130" />
+              <mxPoint x="-155" y="-130" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-33" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-32">
+          <mxGeometry width="39.2" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1eM861wuf7US_MC7G6zC-32">
+          <mxGeometry x="20" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-58" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;" vertex="1" parent="1eM861wuf7US_MC7G6zC-32">
+          <mxGeometry x="-205" y="-150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-35" value="RP15" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-36" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="-310" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-37" value="172.16.137.111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-17" target="1eM861wuf7US_MC7G6zC-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-620" y="-285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-38" value="172.16.137.112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-21" target="1eM861wuf7US_MC7G6zC-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-530" y="-303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-39" value="172.16.137.113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-25" target="1eM861wuf7US_MC7G6zC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-40" value="&lt;div&gt;172.16.137.114&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-29" target="1eM861wuf7US_MC7G6zC-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-41" value="&lt;div&gt;172.16.137.115&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-33" target="1eM861wuf7US_MC7G6zC-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="-285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-61" value="Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;dashed=0;sketch=0;pointerEvents=1;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=#232F3E;fontStyle=0;fillColor=#8C4FFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-462" y="-822" width="84" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1eM861wuf7US_MC7G6zC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1eM861wuf7US_MC7G6zC-58" target="1eM861wuf7US_MC7G6zC-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
