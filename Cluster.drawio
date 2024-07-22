@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-07-22T11:49:26.024Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.7.1" etag="VmFITa7IRVFOPzeaU4hb" type="github">
+  <diagram name="Page-1" id="-Q2Iz3h9BEsy3tTszJFe">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Switch2" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="37" width="214" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Switch2" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="80" y="122" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PI4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="51" y="33" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="PI5" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="140" y="33" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=none;exitX=-0.45;exitY=1;entryX=-0.4;entryY=0;" edge="1" parent="2" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=none;exitX=-0.45;exitY=1;entryX=0.34;entryY=0;" edge="1" parent="2" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Switch1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="260" width="287" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Switch1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
+          <mxGeometry x="116" y="122" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="PI1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
+          <mxGeometry x="43" y="33" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="PI2" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
+          <mxGeometry x="132" y="33" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="PI3" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="8">
+          <mxGeometry x="221" y="33" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=0;entryY=-3.5;" edge="1" parent="8" source="10" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="63" y="97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=0.5;entryY=-3.66;" edge="1" parent="8" source="11" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=-5.67;entryX=1;entryY=-3.5;" edge="1" parent="8" source="12" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
